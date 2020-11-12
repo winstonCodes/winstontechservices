@@ -1,4 +1,6 @@
 home:
-  heading: "Your awesome heading"
-  subheading: "Your awesome subheading"
+  # heading: "Your website is your business card"
+  # subheading: "I help people build their first professional website"
+  heading: "I help people build their first professional website"
+  subheading: "Save time, see results, take pride"
   banner: "Your image url"

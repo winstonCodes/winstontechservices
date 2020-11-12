@@ -4,10 +4,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: smithconsulting.dev
 email: your-email@domain.com
-author: GitHub User
-copyright: Copyright © 1970-2010
+author: Winston Smith
+copyright: Copyright © 2020
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -70,10 +70,10 @@ yat:
 # You can choose a theme color
 # Default theme colors as below:
 # coolblack: #090a0b
-# spacegrey: #353535
+spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+theme_color: spacegrey
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -82,16 +82,18 @@ yat:
 # Default mode is "auto", "auto" is for auto nightshift
 # (19:00 - 07:00), "manual" is for manual toggle, and
 # "on/off" is for always on/off.
-# night_mode: "auto"
+night_mode: "auto"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.html
+  - about.html
+  - clients.html
+  - contact.html
+  # - archives.html
+  # - categories.html
+  # - tags.html
 
 # Page default value
 # defaults:
