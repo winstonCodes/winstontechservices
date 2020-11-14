@@ -90,6 +90,7 @@ header_pages:
   - index.html
   - about.html
   - clients.html
+  - blog.html
   - contact.html
   # - archives.html
   # - categories.html
