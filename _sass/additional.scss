@@ -5,3 +5,13 @@
 a.page-link:last-of-type {
   color: #ff5100 !important;
 }
+
+@media (max-width: 600px) {
+  .page-banner-heading {
+    font-size: 27.625px !important;
+  }
+
+  .page-banner-subheading {
+    font-size: 19.7px !important;
+  }
+}
