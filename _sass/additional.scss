@@ -15,3 +15,16 @@ a.page-link:last-of-type {
     font-size: 28.7px !important;
   }
 }
+
+.center-text {
+  text-align: center;
+}
+
+.inheret-link-color a:link {
+  color: inherit;
+}
+
+#about-image {
+  background-color: inherit;
+  margin: 30px auto;
+}
