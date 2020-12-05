@@ -20,6 +20,19 @@ a.page-link:last-of-type {
   text-align: center;
 }
 
+.center-self {
+  align-self: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-stretch {
+  width: 200px;
+}
+
 .inheret-link-color a:link {
   color: inherit;
 }
@@ -43,7 +56,7 @@ a.page-link:last-of-type {
   border-radius: 5px;
   width: 400px;
   background-color: rgba(255,255,255,0.09);
-  margin: 20px;
+  margin: 20px 10px;
   .client-card-text {
     padding: 0 20px;
   }
@@ -80,4 +93,8 @@ a.page-link:last-of-type {
 #about-image {
   background-color: inherit;
   margin: 30px auto;
+}
+
+#mc-embedded-subscribe {
+  min-width: 200px !important;
 }
